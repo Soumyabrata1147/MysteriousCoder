@@ -1,0 +1,116 @@
+body{
+    margin:0;
+    padding:0;
+}
+.background{
+    width:100%;
+    background-image: url("blank-composition-data-373076.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:52em;
+}
+.welcomeText{
+    margin:0;
+    font-size:4em;
+    position: absolute;
+    top:7.4em;
+    font-weight:900;
+    left:4%;
+    color:#2c2c2c;
+    font-family: 'Roboto', sans-serif;
+}
+@media only screen and (max-width: 567px) {
+    .welcomeText{
+      top:6.4em;
+    }
+  }
+.aboutme{
+    width:96%;
+   margin:6% 4%;
+   background-size: cover;
+
+}
+.section{
+    width:44%;
+    display:inline-block;
+    margin:0 1%;
+}
+  .sectionHeadText{
+    font-size:2.4em;
+    margin-bottom:2%;
+    font-weight:700;
+      color:#2c2c2c;
+      font-family: 'Roboto', sans-serif;
+  }
+  .sectionTailText{
+    font-size:1.3em;
+    line-height:1.8em;
+    font-weight:400;
+    margin-bottom:2%;
+      color:#424242;
+      font-family: 'Roboto', sans-serif;
+  }
+  @media only screen and (max-width: 850px) {
+    .section{
+      display:block;
+      width:100%;
+      margin:2% 0;
+    }
+  }
+  .mainText{
+    background: linear-gradient(to top right, #33ccff 0%, #3399ff 100%);
+    text-align: center;
+    width:100%;
+    height:29em;
+    background-size: cover;
+  }
+  .mainHeadText{
+    margin:0;
+    padding-top:1.5em;
+    font-size:4em;
+    font-weight:900;
+    color:#f0f0f0;
+    font-family: 'Roboto', sans-serif;
+  }
+  .mainTailText{
+    font-size:1.2em;
+    line-height:1.4em;
+    font-weight:400;
+    margin-bottom:3%;
+    color:#f0f0f0;
+      font-family: 'Roboto', sans-serif;
+  }
+  .socialIcons a{
+    color:#f0f0f0;
+    padding:.6em;
+    font-size:1.8em;
+}
+.copy{
+    text-align: center;
+    padding-top:1em;
+    padding-bottom: 1em;
+    font-size:1.2em;
+        line-height:1em;
+        font-weight:400;
+          font-family: 'Roboto', sans-serif;
+      }
+  @media only screen and (max-width: 750px) {
+    .mainHeadText{
+      font-size:3em ;
+    }
+    .socialIcons a{
+        padding:.6em;
+        font-size:1.3em;
+    }
+    .mainText{
+        height:24em;
+    }
+    .mainTailText{
+        font-size:1.1em; 
+        margin-bottom:2em;
+    }
+    .copy{
+        font-size:1em;
+    }
+  }
+  
